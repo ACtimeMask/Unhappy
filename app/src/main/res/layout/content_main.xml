@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beijing"
+    android:orientation="horizontal"
+>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textSize="15pt"
+        android:textColor="#77FF00"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="昵称"
+        android:layout_marginTop="200dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24px"
+        android:minWidth="700px"
+        android:layout_marginTop="210dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="密码"
+        android:minWidth="700px"
+        android:layout_marginTop="230dp"/>
+    <Button
+        android:text="注册"
+        android:textColor="#77FF00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:minWidth="700px"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:background="#FFFFFF"/>
+</RelativeLayout>
